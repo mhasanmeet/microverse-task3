@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+container{
+    display: flex;
+    width: 100%;
+}
+
+aside{
+    width: 25%;
+    height: 100vh;
+    border-right: 2px solid grey;
+}
+
+aside h1{
+    font-weight: 400;
+    font-size: 1.8r em;
+    padding-left: 2rem;
+}
+
+aside #list-items ul{
+    padding: 0;
+}
+
+aside #list-items ul li{
+    border-top: 1px solid grey;
+    list-style: none;
+    width: 100%;
+    padding: .9rem 0;
+}
+
+aside #list-items ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: grey;
+    padding-left: 1.5rem;  
+}
+
+main{
+    width: 75%;
+}
+
+main section{
+    width: 95%;
+    margin-inline: auto;
+}
+
+main section h1{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+main section .list-items{
+    padding-left: 2rem;
+    line-height: 1.5;
+}
