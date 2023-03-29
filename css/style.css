@@ -13,6 +13,7 @@ container{
 aside{
     width: 25%;
     height: 100vh;
+    position: fixed;
     border-right: 2px solid grey;
 }
 
@@ -42,11 +43,18 @@ aside #list-items ul li a{
 
 main{
     width: 75%;
+    position: relative;
+    left: 29rem;
 }
 
 main section{
-    width: 95%;
+    width: 90%;
     margin-inline: auto;
+    line-height: 1.4;
+}
+
+main section div{
+    width: 100%;
 }
 
 main section h1{
@@ -57,4 +65,12 @@ main section h1{
 main section .list-items{
     padding-left: 2rem;
     line-height: 1.5;
+}
+
+.code{
+    font-family: "monospace";
+    width: 100%!important;
+    background-color: rgb(236, 236, 236);
+    padding: .5rem;
+    border-radius: .3rem;
 }
